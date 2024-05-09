@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Task4_3.MainWindow"
+        Title="Task4_3">
+    <DockPanel>
+        <Grid ColumnDefinitions="5*,1*" RowDefinitions="100, Auto">
+            <Border Background="Gainsboro"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="3"
+                Padding="10" Margin="10">
+                <StackPanel Width="800" Height="100" Grid.Row="0" Grid.Column="0">
+                        <TextBlock>Home</TextBlock>
+                        <TextBlock>Home</TextBlock>
+                        <TextBlock>Home</TextBlock>
+                        <TextBlock>Home</TextBlock>
+                        <TextBlock>Home</TextBlock>
+                        <TextBlock>Home</TextBlock>
+                </StackPanel>
+            </Border>
+            <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                <TextBlock>Sed tempus augue ac purus lobortis, et mollis dolor ultrices.</TextBlock> 
+                <TextBlock>Duis ultrices eros vitae ligula ultrices interdum vitae vitae leo. Vivamus hendrerit nulla nec dictum auctor.</TextBlock>
+                <TextBlock>Aliquam ultricies convallis nisl, in sodales massa blandit in. Donec lacus risus, feugiat at diam suscipit, tincidunt ultrices elit.</TextBlock>
+                <TextBlock>Morbi dapibus dui sed neque ultrices, ut hendrerit nibh finibus.</TextBlock>
+                <TextBlock>Aliquam cursus consectetur felis, vitae faucibus lacus sollicitudin sit amet.</TextBlock>
+                <TextBlock>Aliquam erat volutpat. Quisque dictum auctor neque, nec posuere odio sollicitudin sed.</TextBlock>
+                <TextBlock>Aliquam pulvinar felis a dui volutpat aliquam.</TextBlock>
+                <TextBlock>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo lacinia.</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <TextBlock>Здесь текст поменьше</TextBlock>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>
